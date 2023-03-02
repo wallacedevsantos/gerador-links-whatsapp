@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="./script.js"></script>
+    <title>Gerador de links de WhatsApp</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content-background">
+        <h1>Gerador de Links para WhatsApp</h1>
+        <p>
+          Crie dezenas de links para abrir conversas no WhatsApp sem precisar
+          salvar os contatos.
+        </p>
+        <img
+          src="./assets/background.png"
+          alt="gerador de links para WhatsApp"
+        />
+      </div>
+      <div class="form">
+        <form>
+          <label for="numeros">Insira os números</label>
+          <input
+            type="text"
+            id="numeros"
+            placeholder="Ex: 11999999999, 11888888888"
+            autocomplete="off"
+          />
+          <label for="mensagem">Insira a mensagem</label>
+          <input
+            type="text"
+            id="mensagem"
+            placeholder="Ex: Olá, tudo bem?"
+            autocomplete="off"
+          />
+          <button id="gerar-links">Gerar links de WhatsApp</button>
+          <ul id="lista-links"></ul>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

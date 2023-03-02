@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300;1,400;1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.content-background {
+  width: 400px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+
+h1 {
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin-bottom: 0.5rem;
+  font-size: 110%;
+}
+
+.content-background img {
+  width: 400px;
+  padding: 1rem;
+  max-width: 100%;
+}
+
+.form {
+  width: 400px;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.form label {
+  margin: 1rem 0;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.form form input {
+  background-color: rgba(139, 139, 139, 0.297);
+  width: 100%;
+  height: 1rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.7rem;
+  color: rgb(17, 17, 17);
+}
+
+.form form input:focus-visible {
+  outline: 1px solid green;
+}
+
+.form form button {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  border-radius: 0.7rem;
+  margin-top: 1.5rem;
+  background-color: rgb(0, 172, 0);
+  color: #fefefe;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+  transition: all 0.2s ease-in-out;
+}
+
+.form form button:active {
+  background-color: rgb(24, 24, 24);
+}
+
+#lista-links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+#lista-links li {
+  text-decoration: none;
+  list-style-type: none;
+  background-color: rgb(0, 172, 0);
+  width: 150px;
+  text-align: center;
+  margin: 0.5rem;
+  border-radius: 0.7rem;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-weight: bolder;
+}
+
+#lista-links a {
+  display: block;
+  width: 100%;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+#lista-links li:active,
+a:active {
+  background-color: rgb(24, 24, 24);
+}
